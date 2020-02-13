@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Luv4Mia
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: Code2Hack
-language: zh
+author: John Doe
+language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://code2hack.github.io/Mia
-root: /Mia/
+url: http://yoursite.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,10 +98,4 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-    github: https://github.com/code2hack/Mia.git
-  branch: master
-
-aplayer:
-  meting: true
+  type: ''
