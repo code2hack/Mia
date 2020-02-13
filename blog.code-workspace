@@ -1,0 +1,54 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"vim.normalModeKeyBindingsNonRecursive": [
+			{
+			  "before": [
+				"q",
+				"q"
+			  ],
+			  "after": [
+				":",
+				"q",
+				"<CR>"
+			  ]
+			},
+		  ],
+		  "vim.insertModeKeyBindings": [
+			{
+			  "before": [
+				"j",
+				"j"
+			  ],
+			  "after": [
+				"<Esc>"
+			  ]
+			}
+		  ],
+		  "vim.visualModeKeyBindings": [
+			{
+			  "before": [
+				"j",
+				"j"
+			  ],
+			  "after": [
+				"<Esc>"
+			  ]
+			}
+		  ],
+		  "[c]": {
+			"editor.defaultFormatter": "ms-vscode.cpptools"
+		  },
+		  "window.zoomLevel": 1,
+		  "editor.wordWrap": "on",
+		  "C_Cpp.updateChannel": "Insiders",
+		  "workbench.editor.enablePreviewFromQuickOpen": false,
+		  "http.proxySupport": "off",
+		  "insertDateString.format": "### hh:mm:ss"  
+		}
+	}
+}
