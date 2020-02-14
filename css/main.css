@@ -1153,7 +1153,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7d30dd;
+  background: #bdb3e5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2280,4 +2280,10 @@ body {
 }
 .header-inner {
   opacity: 0.8;
+}
+* {
+  cursor: url("/Mia/images/cursors/fat_cat.cur"), auto !important;
+}
+:active {
+  cursor: url("/Mia/images/cursors/cat_paw_grey.cur"), auto !important;
 }
