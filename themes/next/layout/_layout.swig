@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% include '_custom/custom.swig' %}
 <html lang="{{ config.language }}">
 <head>
   {{ partial('_partials/head/head.swig', {}, {cache: theme.cache.enable}) }}
@@ -56,6 +55,5 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
-  
 </body>
 </html>

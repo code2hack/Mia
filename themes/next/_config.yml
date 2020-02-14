@@ -104,8 +104,8 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -193,7 +193,7 @@ social:
   #Skype: skype:yourname?call|chat || skype
 
 social_icons:
-  enable: false
+  enable: true
   icons_only: false
   transition: false
 
@@ -254,8 +254,8 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: false
-  item_text_post: false
+  separated_meta: true
+  item_text_post: true
   item_text_total: false
   awl: 4
   wpm: 275
@@ -1032,15 +1032,3 @@ vendors:
 css: css
 js: js
 images: images
-
-cursor_effect:
-  enabled: true
-  type: love # | fireworks | explosion |
-# Mouse Click Animation.
-click_animation:
-  enable: true
-  # Available values of style: love | fireworks
-  # If not define, there will be no click animation even enabled.
-  style: love
-  # Whether to show on the mobile side
-  mobile: true
