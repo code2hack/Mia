@@ -1033,6 +1033,9 @@ css: css
 js: js
 images: images
 
+cursor_effect:
+  enabled: true
+  type: love # | fireworks | explosion |
 # Mouse Click Animation.
 click_animation:
   enable: true

@@ -56,6 +56,6 @@
     </div>
   {%- endif %}
 
-  {% include '_custom/click-animation.swig' %}
+  {% include '_custom/custom.swig' %}
 </body>
 </html>
