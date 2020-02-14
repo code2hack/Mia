@@ -55,5 +55,6 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
+  <script src="/Mia/js/cursor/love.js"></script>
 </body>
 </html>
