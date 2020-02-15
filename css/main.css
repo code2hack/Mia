@@ -1153,7 +1153,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7f6375;
+  background: #ffc3e0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2268,7 +2268,7 @@ embed {
   transition-timing-function: ease-out;
 }
 body {
-  background-image: url("/Mia/images/moon.png");
+  background-image: url("/Mia/images/backgrounds/moon.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
