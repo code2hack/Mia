@@ -1153,7 +1153,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9475a4;
+  background: #7f6375;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2266,4 +2266,24 @@ embed {
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
+}
+body {
+  background-image: url("/Mia/images/moon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 80% 40%;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+}
+* {
+  cursor: url("/Mia/images/cursors/fat_cat.cur"), auto !important;
+}
+:active {
+  cursor: url("/Mia/images/cursors/cat_paw_grey.cur"), auto !important;
 }
